@@ -1,0 +1,88 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: normal;
+  color: #565656;
+  margin-bottom: 56px;
+}
+
+
+
+.sticky-footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #0f9de3;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #7d7d7d;
+}
+
+
+.border-primary {
+  border-color: #0f9de3;
+}
+
+.navbar {
+  border-bottom: 1px solid rgba(40, 38, 43, 0.2);
+}
+
+
+.logo-subtitle {
+  letter-spacing: 0.2rem;
+  color: #7d7d7d;
+}
+
+.device-icon {
+  width: 50%;
+  height: auto;
+}
+
+.device-container a {
+  color: #565656;
+  text-align: center;
+  text-decoration: none;
+}
+
+.device-container a:hover {
+  color: white;
+}
+
+.device-container {
+  background-color: white;
+  transition: background-color 0.3s linear 0s;
+}
+
+.device-container:hover {
+  background-color: #0f9de3;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .navbar-brand{
+    height: auto;
+    
+  }
+
+  .navbar-brand h4{
+    font-size: 1.15rem;
+  }
+
+  .navbar-brand img{
+    height: auto;
+    width: 80%;
+  }
+
+  .sticky-footer{
+    font-size: .8rem;
+  }
+}
